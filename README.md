@@ -39,5 +39,29 @@
 
 ### Integrity constraints
 - Script `integrity constraints.py` checks whether the generated datacubes comply to the constraints.
-- If the file passes all the constraints, then the datacube is valid. 
+- If the file passes all the constraints, then the datacube is valid.
+
+# Data Engineering - Assignment 2
+## [https://skoda.projekty.ms.mff.cuni.cz/ndbi046/seminars/02-data-cube.html](https://skoda.projekty.ms.mff.cuni.cz/ndbi046/seminars/03-airflow.html)
+
+## System Requirements
+- Python 3 (developed with Python 3.10)
+- Docker (Minimum of 4GB memory)
+- Modules (declared in [requirements.txt](1-Data-Cube/requirements.txt)):
+  - [Pandas](https://pandas.pydata.org/)
+  - [RDFLib](https://rdflib.readthedocs.io/en/stable/index.html)
+  - [Requests](https://requests.readthedocs.io/en/latest/)
+ 
+ ## Installation instructions
+1. Clone the repository
+2. Run `docker compose up --build`
+3. open localhost:8080 and enter - username: airflow, password: airflow
+5. Run data_cube_dag where, in the configuration, the"output_path" parameter is set to absolute path in linux filesystem ({"output_path": "/opt/airflow/dags/"})
+
+## Information
+The scripts for data_cube_1 and data_cube_2 are largely unchanged. Some functionality was added by a few changes to the main() function, which allowed them to function with Docker
+
+
+
+
 
