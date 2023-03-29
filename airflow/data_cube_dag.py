@@ -1,6 +1,3 @@
-# TO DO
-# update data_cube scripts and put them in operator folders, write README,
-
 import requests
 from datetime import datetime, timedelta
 
