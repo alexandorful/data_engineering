@@ -132,8 +132,6 @@ def create_observation(collector: Graph, dataset, resource, data: pd.DataFrame):
     collector.add((resource, NS.numberOfCareProviders, Literal(data["PocetPoskytovaluPece"])))   
 
 
-
-
 def create_resources(collector: Graph, data: pd.DataFrame):
     for _, row in data[[County, CountyCode]].drop_duplicates().dropna().iterrows():
         county = serialize_to_string(row[CountyCode])
