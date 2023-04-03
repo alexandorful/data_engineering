@@ -18,11 +18,10 @@ Region = "Kraj"
 RegionCode = "KrajCode"
 Field = "OborPece"
 
-
-def process_providers(output_path = "/opt/airflow/dags/"):
+def main():
     data_as_csv = load_csv_file_as_object("Care providers - Data.csv")
     data_cube = as_data_cube(data_as_csv)
-    data_cube.serialize(format="ttl", destination = output_path.rstrip("/") + "/care_providers.ttl")
+    print(data_cube.serialize(format="ttl", destination="Care_Providers.ttl"))
     print("-" * 80)
 
 
@@ -121,15 +120,16 @@ def create_observations(collector: Graph, dataset, data: pd.DataFrame):
 
 
 def create_observation(collector: Graph, dataset, resource, data: pd.DataFrame):
+    county = serialize_to_string(data["OkresCode"])
+    region = serialize_to_string(data["KrajCode"])
+    field = serialize_to_string(data["OborPece"])
 
     collector.add((resource, RDF.type, QB.Observation))
     collector.add((resource, QB.dataSet, dataset))
-    collector.add((resource, NS.county, Literal(data["OkresCode"])))
-    collector.add((resource, NS.region, Literal(data["KrajCode"])))
-    collector.add((resource, NS.field, Literal(data["OborPece"])))
+    collector.add((resource, NS.county, NSR[county]))
+    collector.add((resource, NS.region, NSR[region]))
+    collector.add((resource, NS.field, NSR[field]))
     collector.add((resource, NS.numberOfCareProviders, Literal(data["PocetPoskytovaluPece"])))
-
-
 
 
 def create_resources(collector: Graph, data: pd.DataFrame):
@@ -150,12 +150,9 @@ def create_resources(collector: Graph, data: pd.DataFrame):
             (NSR[field], SKOS.prefLabel, Literal(str(row[Field]), lang="cs"))
         )
 
-
 def serialize_to_string(obj: any) -> str:
     return str(obj).strip().replace(", ", ",").replace(" ", "_").lower()
 
-
 if __name__ == "__main__":
-    process_providers()
-
+    main()
 
