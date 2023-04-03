@@ -119,14 +119,17 @@ def create_observations(collector: Graph, dataset, data: pd.DataFrame):
         create_observation(collector, dataset, resource, row)
 
 
-def create_observation(collector: Graph, dataset, resource, data: pd.DataFrame):
-
-    collector.add((resource, RDF.type, QB.Observation))
-    collector.add((resource, QB.dataSet, dataset))
-    collector.add((resource, NS.county, Literal(data["OkresCode"])))
-    collector.add((resource, NS.region, Literal(data["KrajCode"])))
-    collector.add((resource, NS.field, Literal(data["OborPece"])))
-    collector.add((resource, NS.numberOfCareProviders, Literal(data["PocetPoskytovaluPece"])))
+def create_observation(collector: Graph, dataset, resource, data: pd.DataFrame):                 
+    county = serialize_to_string(data["OkresCode"])                                              
+    region = serialize_to_string(data["KrajCode"])                                               
+    field = serialize_to_string(data["OborPece"])                                                
+                                                                                                 
+    collector.add((resource, RDF.type, QB.Observation))                                          
+    collector.add((resource, QB.dataSet, dataset))                                               
+    collector.add((resource, NS.county, NSR[county]))                                            
+    collector.add((resource, NS.region, NSR[region]))                                            
+    collector.add((resource, NS.field, NSR[field]))                                              
+    collector.add((resource, NS.numberOfCareProviders, Literal(data["PocetPoskytovaluPece"])))   
 
 
 
