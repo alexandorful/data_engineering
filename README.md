@@ -61,6 +61,21 @@
 ## Information
 The scripts for data_cube_1 and data_cube_2 are largely unchanged. Some functionality was added by a few changes to the main() function, which allowed them to function with Docker
 
+# Data Engineering - Assignment 3
+## https://skoda.projekty.ms.mff.cuni.cz/ndbi046/seminars/04-provenance.html#/1/1
+
+## System Requirements
+- Python 3 (developed with Python 3.10)
+- [RDFLib](https://rdflib.readthedocs.io/en/stable/index.html)
+ 
+ ## Installation instructions
+1. Clone the repository
+2. Install rdflib
+3. Run the Provenance-care-providers and Provenance-population Python files to generate the 2 respective .trig files
+
+## Information
+The scripts use PROV to generate RDF TriG files. 
+
 
 
 
