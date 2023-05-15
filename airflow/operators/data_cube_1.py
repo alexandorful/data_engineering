@@ -98,7 +98,7 @@ def create_structure(collector: Graph, dimensions, measures):
 
 
 def create_dataset(collector: Graph, structure):
-    dataset = NSR.dataCubeInstance
+    dataset = NSR.dataCubePopulationInstance
     collector.add((dataset, RDF.type, QB.DataSet))
     collector.add((dataset, RDFS.label, Literal("Poskytovatelé zdravotních služeb", lang="cs")))
     collector.add((dataset, RDFS.label, Literal("HealthCare Providers", lang="en")))
