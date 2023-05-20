@@ -1,0 +1,768 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <https://alexandorful.github.io/datacube/ontology#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://alexandorful.github.io/datacube/resources/CZ010> a ns1:region ;
+    skos:prefLabel "Hlavní město Praha"@cs .
+
+<https://alexandorful.github.io/datacube/resources/observation-45921> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0427> ;
+    ns1:mean_population 116930 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ042> .
+
+<https://alexandorful.github.io/datacube/resources/observation-45973> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0524> ;
+    ns1:mean_population 78479 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ052> .
+
+<https://alexandorful.github.io/datacube/resources/observation-46108> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0514> ;
+    ns1:mean_population 71593 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ051> .
+
+<https://alexandorful.github.io/datacube/resources/observation-46109> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0522> ;
+    ns1:mean_population 78763 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ052> .
+
+<https://alexandorful.github.io/datacube/resources/observation-46165> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0531> ;
+    ns1:mean_population 103657 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ053> .
+
+<https://alexandorful.github.io/datacube/resources/observation-46603> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0642> ;
+    ns1:mean_population 378424 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ064> .
+
+<https://alexandorful.github.io/datacube/resources/observation-46651> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0644> ;
+    ns1:mean_population 114758 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ064> .
+
+<https://alexandorful.github.io/datacube/resources/observation-46980> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0208> ;
+    ns1:mean_population 100584 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47115> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0646> ;
+    ns1:mean_population 91984 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ064> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47171> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0713> ;
+    ns1:mean_population 107697 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ071> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47172> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0714> ;
+    ns1:mean_population 126826 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ071> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47221> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0322> ;
+    ns1:mean_population 84661 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ032> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47222> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0326> ;
+    ns1:mean_population 48587 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ032> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47224> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0411> ;
+    ns1:mean_population 88030 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ041> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47296> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0723> ;
+    ns1:mean_population 140392 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ072> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47297> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0724> ;
+    ns1:mean_population 188947 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ072> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47459> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0206> ;
+    ns1:mean_population 108889 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47460> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0209> ;
+    ns1:mean_population 186558 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47511> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ020C> ;
+    ns1:mean_population 54767 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47512> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0314> ;
+    ns1:mean_population 70582 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ031> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47513> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0323> ;
+    ns1:mean_population 187985 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ032> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47553> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0421> ;
+    ns1:mean_population 126492 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ042> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47760> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0521> ;
+    ns1:mean_population 162193 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ052> .
+
+<https://alexandorful.github.io/datacube/resources/observation-47840> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0802> ;
+    ns1:mean_population 212422 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ080> .
+
+<https://alexandorful.github.io/datacube/resources/observation-48010> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0312> ;
+    ns1:mean_population 60033 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ031> .
+
+<https://alexandorful.github.io/datacube/resources/observation-48059> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0325> ;
+    ns1:mean_population 80228 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ032> .
+
+<https://alexandorful.github.io/datacube/resources/observation-48109> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0202> ;
+    ns1:mean_population 95823 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-48110> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0207> ;
+    ns1:mean_population 127221 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-48886> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0711> ;
+    ns1:mean_population 36884 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ071> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49167> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0205> ;
+    ns1:mean_population 75402 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49224> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0201> ;
+    ns1:mean_population 99008 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49225> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ020A> ;
+    ns1:mean_population 149990 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49226> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ020B> ;
+    ns1:mean_population 114060 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49227> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0311> ;
+    ns1:mean_population 194994 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ031> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49283> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0315> ;
+    ns1:mean_population 50225 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ031> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49516> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0801> ;
+    ns1:mean_population 89906 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ080> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49517> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0804> ;
+    ns1:mean_population 149907 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ080> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49579> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0806> ;
+    ns1:mean_population 312908 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ080> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49690> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0313> ;
+    ns1:mean_population 89325 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ031> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49833> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0321> ;
+    ns1:mean_population 54313 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ032> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49834> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0412> ;
+    ns1:mean_population 110195 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ041> .
+
+<https://alexandorful.github.io/datacube/resources/observation-49903> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0324> ;
+    ns1:mean_population 68623 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ032> .
+
+<https://alexandorful.github.io/datacube/resources/observation-50423> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0423> ;
+    ns1:mean_population 117473 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ042> .
+
+<https://alexandorful.github.io/datacube/resources/observation-50424> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0426> ;
+    ns1:mean_population 124401 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ042> .
+
+<https://alexandorful.github.io/datacube/resources/observation-50467> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0534> ;
+    ns1:mean_population 135977 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ053> .
+
+<https://alexandorful.github.io/datacube/resources/observation-50521> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0511> ;
+    ns1:mean_population 101997 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ051> .
+
+<https://alexandorful.github.io/datacube/resources/observation-50522> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0513> ;
+    ns1:mean_population 173337 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ051> .
+
+<https://alexandorful.github.io/datacube/resources/observation-50596> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0523> ;
+    ns1:mean_population 108092 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ052> .
+
+<https://alexandorful.github.io/datacube/resources/observation-50597> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0525> ;
+    ns1:mean_population 115365 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ052> .
+
+<https://alexandorful.github.io/datacube/resources/observation-50666> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0647> ;
+    ns1:mean_population 113389 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ064> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51064> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0631> ;
+    ns1:mean_population 93521 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ063> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51112> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0532> ;
+    ns1:mean_population 171461 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ053> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51113> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0634> ;
+    ns1:mean_population 109373 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ063> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51166> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0715> ;
+    ns1:mean_population 118618 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ071> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51332> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0204> ;
+    ns1:mean_population 103345 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51458> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0633> ;
+    ns1:mean_population 71457 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ063> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51459> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0635> ;
+    ns1:mean_population 117181 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ063> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51461> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0641> ;
+    ns1:mean_population 107795 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ064> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51462> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0645> ;
+    ns1:mean_population 151344 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ064> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51503> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0533> ;
+    ns1:mean_population 102799 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ053> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51704> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0632> ;
+    ns1:mean_population 112206 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ063> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51705> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0643> ;
+    ns1:mean_population 224794 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ064> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51733> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0722> ;
+    ns1:mean_population 139922 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ072> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51734> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0803> ;
+    ns1:mean_population 241184 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ080> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51800> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0316> ;
+    ns1:mean_population 69794 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ031> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51856> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0712> ;
+    ns1:mean_population 233661 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ071> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51858> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0721> ;
+    ns1:mean_population 103753 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ072> .
+
+<https://alexandorful.github.io/datacube/resources/observation-51909> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0805> ;
+    ns1:mean_population 173853 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ080> .
+
+<https://alexandorful.github.io/datacube/resources/observation-52034> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0203> ;
+    ns1:mean_population 164359 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ020> .
+
+<https://alexandorful.github.io/datacube/resources/observation-52054> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0413> ;
+    ns1:mean_population 85452 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ041> .
+
+<https://alexandorful.github.io/datacube/resources/observation-52055> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0422> ;
+    ns1:mean_population 121643 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ042> .
+
+<https://alexandorful.github.io/datacube/resources/observation-52056> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0425> ;
+    ns1:mean_population 107090 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ042> .
+
+<https://alexandorful.github.io/datacube/resources/observation-52166> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0317> ;
+    ns1:mean_population 101333 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ031> .
+
+<https://alexandorful.github.io/datacube/resources/observation-52240> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0512> ;
+    ns1:mean_population 90204 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ051> .
+
+<https://alexandorful.github.io/datacube/resources/observation-52340> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0327> ;
+    ns1:mean_population 52793 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ032> .
+
+<https://alexandorful.github.io/datacube/resources/observation-52403> a qb:Observation ;
+    qb:dataSet <https://alexandorful.github.io/datacube/resources/dataCubeInstance> ;
+    ns1:county <https://alexandorful.github.io/datacube/resources/CZ0424> ;
+    ns1:mean_population 85466 ;
+    ns1:region <https://alexandorful.github.io/datacube/resources/CZ042> .
+
+ns1:meanPopulation a qb:MeasureProperty,
+        rdfs:Property ;
+    rdfs:label "Střední stav obyvatel - počet"@cs,
+        "Mean population count"@en ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> .
+
+ns1:structure a qb:DataStructureDefinition ;
+    qb:component [ qb:measure ns1:meanPopulation ],
+        [ qb:dimension ns1:county ],
+        [ qb:dimension ns1:region ] .
+
+<https://alexandorful.github.io/datacube/resources/CZ0201> a ns1:county ;
+    skos:prefLabel "Benešov"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0202> a ns1:county ;
+    skos:prefLabel "Beroun"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0203> a ns1:county ;
+    skos:prefLabel "Kladno"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0204> a ns1:county ;
+    skos:prefLabel "Kolín"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0205> a ns1:county ;
+    skos:prefLabel "Kutná Hora"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0206> a ns1:county ;
+    skos:prefLabel "Mělník"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0207> a ns1:county ;
+    skos:prefLabel "Mladá Boleslav"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0208> a ns1:county ;
+    skos:prefLabel "Nymburk"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0209> a ns1:county ;
+    skos:prefLabel "Praha-východ"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ020A> a ns1:county ;
+    skos:prefLabel "Praha-západ"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ020B> a ns1:county ;
+    skos:prefLabel "Příbram"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ020C> a ns1:county ;
+    skos:prefLabel "Rakovník"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0311> a ns1:county ;
+    skos:prefLabel "České Budějovice"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0312> a ns1:county ;
+    skos:prefLabel "Český Krumlov"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0313> a ns1:county ;
+    skos:prefLabel "Jindřichův Hradec"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0314> a ns1:county ;
+    skos:prefLabel "Písek"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0315> a ns1:county ;
+    skos:prefLabel "Prachatice"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0316> a ns1:county ;
+    skos:prefLabel "Strakonice"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0317> a ns1:county ;
+    skos:prefLabel "Tábor"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0321> a ns1:county ;
+    skos:prefLabel "Domažlice"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0322> a ns1:county ;
+    skos:prefLabel "Klatovy"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0323> a ns1:county ;
+    skos:prefLabel "Plzeň-město"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0324> a ns1:county ;
+    skos:prefLabel "Plzeň-jih"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0325> a ns1:county ;
+    skos:prefLabel "Plzeň-sever"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0326> a ns1:county ;
+    skos:prefLabel "Rokycany"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0327> a ns1:county ;
+    skos:prefLabel "Tachov"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0411> a ns1:county ;
+    skos:prefLabel "Cheb"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0412> a ns1:county ;
+    skos:prefLabel "Karlovy Vary"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0413> a ns1:county ;
+    skos:prefLabel "Sokolov"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0421> a ns1:county ;
+    skos:prefLabel "Děčín"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0422> a ns1:county ;
+    skos:prefLabel "Chomutov"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0423> a ns1:county ;
+    skos:prefLabel "Litoměřice"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0424> a ns1:county ;
+    skos:prefLabel "Louny"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0425> a ns1:county ;
+    skos:prefLabel "Most"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0426> a ns1:county ;
+    skos:prefLabel "Teplice"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0427> a ns1:county ;
+    skos:prefLabel "Ústí nad Labem"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0511> a ns1:county ;
+    skos:prefLabel "Česká Lípa"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0512> a ns1:county ;
+    skos:prefLabel "Jablonec nad Nisou"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0513> a ns1:county ;
+    skos:prefLabel "Liberec"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0514> a ns1:county ;
+    skos:prefLabel "Semily"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0521> a ns1:county ;
+    skos:prefLabel "Hradec Králové"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0522> a ns1:county ;
+    skos:prefLabel "Jičín"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0523> a ns1:county ;
+    skos:prefLabel "Náchod"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0524> a ns1:county ;
+    skos:prefLabel "Rychnov nad Kněžnou"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0525> a ns1:county ;
+    skos:prefLabel "Trutnov"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0531> a ns1:county ;
+    skos:prefLabel "Chrudim"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0532> a ns1:county ;
+    skos:prefLabel "Pardubice"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0533> a ns1:county ;
+    skos:prefLabel "Svitavy"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0534> a ns1:county ;
+    skos:prefLabel "Ústí nad Orlicí"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0631> a ns1:county ;
+    skos:prefLabel "Havlíčkův Brod"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0632> a ns1:county ;
+    skos:prefLabel "Jihlava"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0633> a ns1:county ;
+    skos:prefLabel "Pelhřimov"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0634> a ns1:county ;
+    skos:prefLabel "Třebíč"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0635> a ns1:county ;
+    skos:prefLabel "Žďár nad Sázavou"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0641> a ns1:county ;
+    skos:prefLabel "Blansko"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0642> a ns1:county ;
+    skos:prefLabel "Brno-město"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0643> a ns1:county ;
+    skos:prefLabel "Brno-venkov"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0644> a ns1:county ;
+    skos:prefLabel "Břeclav"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0645> a ns1:county ;
+    skos:prefLabel "Hodonín"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0646> a ns1:county ;
+    skos:prefLabel "Vyškov"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0647> a ns1:county ;
+    skos:prefLabel "Znojmo"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0711> a ns1:county ;
+    skos:prefLabel "Jeseník"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0712> a ns1:county ;
+    skos:prefLabel "Olomouc"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0713> a ns1:county ;
+    skos:prefLabel "Prostějov"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0714> a ns1:county ;
+    skos:prefLabel "Přerov"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0715> a ns1:county ;
+    skos:prefLabel "Šumperk"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0721> a ns1:county ;
+    skos:prefLabel "Kroměříž"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0722> a ns1:county ;
+    skos:prefLabel "Uherské Hradiště"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0723> a ns1:county ;
+    skos:prefLabel "Vsetín"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0724> a ns1:county ;
+    skos:prefLabel "Zlín"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0801> a ns1:county ;
+    skos:prefLabel "Bruntál"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0802> a ns1:county ;
+    skos:prefLabel "Frýdek-Místek"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0803> a ns1:county ;
+    skos:prefLabel "Karviná"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0804> a ns1:county ;
+    skos:prefLabel "Nový Jičín"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0805> a ns1:county ;
+    skos:prefLabel "Opava"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ0806> a ns1:county ;
+    skos:prefLabel "Ostrava-město"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ041> a ns1:region ;
+    skos:prefLabel "Karlovarský kraj"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ051> a ns1:region ;
+    skos:prefLabel "Liberecký kraj"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ053> a ns1:region ;
+    skos:prefLabel "Pardubický kraj"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ072> a ns1:region ;
+    skos:prefLabel "Zlínský kraj"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ052> a ns1:region ;
+    skos:prefLabel "Královéhradecký kraj"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ063> a ns1:region ;
+    skos:prefLabel "Kraj Vysočina"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ071> a ns1:region ;
+    skos:prefLabel "Olomoucký kraj"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ080> a ns1:region ;
+    skos:prefLabel "Moravskoslezský kraj"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ031> a ns1:region ;
+    skos:prefLabel "Jihočeský kraj"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ032> a ns1:region ;
+    skos:prefLabel "Plzeňský kraj"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ042> a ns1:region ;
+    skos:prefLabel "Ústecký kraj"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ064> a ns1:region ;
+    skos:prefLabel "Jihomoravský kraj"@cs .
+
+<https://alexandorful.github.io/datacube/resources/CZ020> a ns1:region ;
+    skos:prefLabel "Středočeský kraj"@cs .
+
+ns1:region a qb:CodedProperty,
+        qb:DimensionProperty,
+        rdfs:Property ;
+    rdfs:label "RegionCode"@en ;
+    qb:concept <http://purl.org/linked-data/sdmx/2009/concept#refArea> ;
+    rdfs:range xsd:string .
+
+<https://alexandorful.github.io/datacube/resources/dataCubeInstance> a qb:DataSet ;
+    rdfs:label "Obyvatelé v okresech 2021"@cs,
+        "Population 2021"@en ;
+    dcterms:issued "2023-03-11"^^xsd:date ;
+    dcterms:license "https://github.com/alexandorful/NDBI046/blob/main/LICENSE" ;
+    dcterms:modified "2023-04-03"^^xsd:date ;
+    dcterms:publisher "https://github.com/alexandorful" ;
+    qb:structure ns1:structure .
+
+ns1:county a qb:CodedProperty,
+        qb:DimensionProperty,
+        rdfs:Property ;
+    rdfs:label "CountyCode"@en ;
+    qb:concept <http://purl.org/linked-data/sdmx/2009/concept#refArea> ;
+    rdfs:range xsd:string .
+
