@@ -1,5 +1,6 @@
 from rdflib import Graph, BNode, Literal, Namespace, URIRef
 from rdflib.namespace import RDF, XSD, DCAT, DCTERMS
+import hashlib
 
 NS = Namespace("https://alexandorful.github.io/datacube/ontology#")
 NSR = Namespace("https://alexandorful.github.io/datacube/resources/")
@@ -38,19 +39,31 @@ def define_dataset(g: Graph):
 
 
 def create_distribution(g: Graph):
+
     distribution = NSR.CubeDistribution
+
+    with open("population-dataset.ttl", 'rb') as f:
+        bytes = f.read()
+        readable_hash = hashlib.sha256(bytes).hexdigest()
+
+    # Create checksum resource
+    checksum = BNode()
+    g.add((checksum, RDF.type, SPDX.Checksum))
+    g.add((checksum, SPDX.algorithm, SPDX.sha256))
+    g.add((checksum, SPDX.checksumValue, Literal(readable_hash)))
 
     g.add((distribution, RDF.type, DCAT.Distribution))
     g.add((distribution, DCAT.accessURL, URIRef("https://github.com/alexandorful/data_engineering")))
     g.add((distribution, DCTERMS.format, EUA["file-type/RDF_TURTLE"]))
     g.add((distribution, DCAT.mediaType, URIRef("https://www.iana.org/assignments/media-types/text/turtle")))
+    g.add((distribution, SPDX.checksum, checksum))
 
 
 def create_dataset():
     g = Graph(bind_namespaces="rdflib")
     define_dataset(g)
-    create_distribution(g)
     g.serialize("population-dataset.ttl", format="turtle")
+    create_distribution(g)
 
 
 if __name__ == "__main__":
