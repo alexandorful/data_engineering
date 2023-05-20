@@ -76,10 +76,16 @@ The scripts for data_cube_1 and data_cube_2 are largely unchanged. Some function
 ## Information
 The scripts use PROV to generate RDF TriG files. 
 
-# Data Engineering - Assignment 3
+# Data Engineering - Assignment 4
 ## https://skoda.projekty.ms.mff.cuni.cz/ndbi046/seminars/05-vocabulary.html#/2
 
 Run the file SKOS-builder to generate the SKOS hierarchy, with respects to region and County. Then run the file 'population_dcat' to generate the DCAT dataset for the Population Cube.
+
+# Data Engineering - Assignment 5
+## [https://skoda.projekty.ms.mff.cuni.cz/ndbi046/seminars/05-vocabulary.html#/2](https://skoda.projekty.ms.mff.cuni.cz/ndbi046/seminars/06-public.html)
+
+You can find the GitHub pages index here: https://alexandorful.github.io/data_engineering/
+Indexed files are certificate.crt, data-catalog.sha256.sign and population_2021.ttl
 
 
 
