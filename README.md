@@ -86,7 +86,7 @@ Run the file SKOS-builder to generate the SKOS hierarchy, with respects to regio
 
 You can find the GitHub pages index here: https://alexandorful.github.io/data_engineering
 
-Indexed files are certificate.crt, data-catalog.sha256.sign and population_2021.ttl
+Indexed files are certificate.crt, data-catalog.sha256.sign and Population_2021.ttl
 
 
 
